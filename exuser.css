@@ -1,0 +1,320 @@
+/*Desktop 500px-1400px*/
+@media screen and (min-width:700px) and (max-width:3400px){
+    /*banner*/
+body{
+    background-color:rgb(30, 143, 143);
+    max-width: 100%;
+    min-width:951px;
+}
+    .cont-banner{
+    background-color:none;
+    width: 100%;
+    min-width:951px;
+    text-align: center;
+    height:400px;
+    background-image:url(/sp-img01.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin: 0px 0px 10px 0px;
+}
+.ct-cidade{
+    border:3px solid;
+    border-radius: 10px;
+    width:200px;
+    padding:10px;
+    margin: 10px;
+    float: left;
+}
+.st-cidade{
+    font-size: 60px;
+    font-family:agency fb;
+}
+/*ajuste conteiners*/
+.ct-1{width:30%;}
+.ct-2{width:40%; margin:0px 50px 0px 50px; min-width:356px;}
+.ct-3{width:30%;}
+/*conteiner principal*/
+.ct-principal{
+    background-color:none;
+    display: flex;
+    width: 100%;
+}
+/*conteiner principal menu um da esquerda*/
+.ct-menu{
+    background-color:rgb(30, 143, 143);
+    height:100%;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.ct-menu-caixas{
+    background-color: rgb(7, 58, 58);
+    width: 100%;
+    min-width:280px;
+    border-radius: 20px;
+    text-align: center;
+    padding:10px;
+    margin:0px 0px 20px 0px;
+}
+.st-menu-caixas{
+    font-size:40px;
+    font-family:agency fb;
+}
+.ct-icons-menu{
+    width:20%;
+}
+#img-menu{
+    width:100%;
+    float: left;
+}
+/*conteiner principal centro*/
+.ct-info-principal{
+    background-color:none;
+    width: 100%;
+}
+.ct-info-principal-titulo{
+    background-color:none;
+    padding: 10px;
+    text-align: center;
+    margin:10px 0px 20px 40px;
+}
+.st-info-principal-titulo{
+    font-size: 30px;
+    font-family: agency fb;
+    background-color:rgb(15, 78, 78);
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+}
+.ct-info-principal-texto{
+    background-color:none;
+    margin: 0px 0px 30px 0px;
+    border-radius:50px;
+    width:100%;
+    min-width: 355px;
+    text-align:center;
+    background-color: rgba(0, 255, 255, 0.116);
+    padding: 20px;
+    box-shadow:0px 0px 20px 1px rgba(7, 48, 48, 0.548);
+}
+.st-info-texto{
+    font-size: 20px;
+    font-family:Bahnschrift;
+}
+/*conteiner sobre direita*/
+.ct-sobre{
+    background-color:none;
+    height:100%;
+}
+.ct-sobre-caixas{
+    background-color:none;
+    width:100%;
+    padding: 10px;
+}
+.ct-sobre-titulo{
+    background-color:rgb(7, 58, 58);
+    width:250px;
+    border-radius:50px;
+    text-align: center;
+    margin:0px 0px 0px 50px;
+    padding:5px;
+}
+.st-sobre-titulo{
+    font-size:30px;
+    font-family:agency fb;
+}
+.ct-icons-sobre{
+    width:20%;
+}
+#img-sobre{
+    width:100%;
+    float: left;
+}
+.ct-sobre-texto{
+    background-color:none;
+    text-align: center;
+    padding:20px;
+}
+.st-sobre-texto{
+    font-family:Bahnschrift;
+}
+/*Conteiner rodapé*/
+.cont-rodape{
+    width: 100%;
+    min-width:951px;
+    height:200px;
+    background-image:url(/sp-rd02.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+}
+/*Tablet 400px-699px*/
+@media screen and (min-width:400px) and (max-width:699px){
+    /*banner*/
+body{
+    background-color: black;
+}
+.cont-banner{
+    background-color: purple;
+    text-align: center;
+    height:100px;
+    font-size: 60px;
+}
+/*conteiner principal*/
+.ct-principal{
+    background-color: aqua;
+    background-image: url(/fundo-img01.png);
+    width: 100%;
+    height:none;
+    float:left;
+}
+/*conteiner principal menu um da esquerda*/
+.ct-menu{
+    background-color: rgb(6, 32, 32);
+    padding: 10px;
+    display: grid;
+    float:left;
+}
+.ct-menu-caixas{
+    background-color: rgb(44, 136, 136);
+    padding:10px;
+    margin:5px;
+    text-align: center;
+}
+/*conteiner principal centro*/
+.ct-info-principal{
+    background-color: none;
+    padding:10px;
+    display:grid;
+    height:340px;
+}
+/*ajuste*/
+  .ct-1 {width: 30%;}
+  .ct-2 {width: 70%;}
+  .ct-3 {width: 100%;}
+.ct-info-principal-titulo{
+    background-color: rgb(206, 165, 116);
+    padding:20px;
+    width:60px;
+    text-align: center;
+}
+.ct-info-principal-texto{
+    background-color: rgb(128, 81, 25);
+    padding:50px;
+    text-align: center;
+}
+/*conteiner sobre direita*/
+.ct-sobre{
+    background-color: rgb(55, 196, 196);
+    width: 100%;
+    display: flex;
+}
+.ct-sobre-caixas{
+    background-color:rgb(15, 78, 78);
+    display:grid;
+    width:100%;
+    margin:5px;
+}
+.ct-sobre-titulo{
+    background-color: aqua;
+    padding:10px;
+    text-align: center;
+}
+.ct-sobre-texto{
+    background-color: rgb(35, 134, 134);
+    padding:10px;
+    text-align: center;
+}
+/*Conteiner rodapé*/
+.cont-rodape{
+    height:none;
+    background-color: purple;
+    text-align: center;
+    font-size: 60px;
+}
+}
+/*smartphone 100px-399px*/
+@media screen and (min-width:100px) and (max-width:399px){
+    /*banner*/
+body{
+    background-color: blue;
+}
+.cont-banner{
+    background-color: purple;
+    text-align: center;
+    height:100px;
+    font-size: 60px;
+}
+/*conteiner principal*/
+.ct-principal{
+    background-color: none;
+    height:500px;
+}
+/*conteiner principal menu um da esquerda*/
+.ct-menu{
+    background-color:none;
+    width:100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ct-menu-caixas{
+    background-color: rgb(15, 78, 78);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+/*conteiner principal centro*/
+.ct-info-principal{
+    background-color: none;
+    width:100%;
+    box-sizing: border-box;
+}
+.ct-info-principal-titulo{
+    background-color: rgb(206, 165, 116);
+    padding: 5px;
+    text-align: left;
+}
+.ct-info-principal-texto{
+    background-color: rgb(128, 81, 25);
+    text-align: center;
+    height:200px;
+}
+/*conteiner sobre direita*/
+.ct-sobre{
+    background-color:none;
+    width:100%;
+    display: flex;
+    margin: 2px;
+
+}
+.ct-sobre-caixas{
+    background-color:rgb(15, 78, 78);
+    width: 100%;
+
+   
+}
+.ct-sobre-titulo{
+    background-color: aqua;
+    text-align: center;
+    height:20px
+}
+.ct-sobre-texto{
+    background-color: rgb(35, 134, 134);
+    text-align: center;
+    height:70px;
+
+}
+/*Conteiner rodapé*/
+.cont-rodape{
+    height:100px;
+    width: 100%;
+    background-color:purple;
+    text-align: center;
+    font-size: 60px;
+
+}
+}

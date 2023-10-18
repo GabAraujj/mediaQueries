@@ -1,0 +1,183 @@
+/*celulares com tamanho máximo até 640px*/
+@media screen and (max-width:640px){
+    body{
+        background-color: brown;
+    }
+    .tipo{
+        display: flex;
+        background-color: rgb(10, 41, 41);
+        font-family: Arial, Helvetica, sans-serif;
+        padding:5px;
+        border-radius:10px;
+    }
+    .cel{
+        font-size: 13px;
+        color: aqua;
+    }
+    .tab{
+        font-size: 1px;
+        color: rgb(10, 41, 41);
+    }
+    .comp{
+        font-size: 1px;
+        color: rgb(10, 41, 41);
+    }
+    header{
+        background-color: aqua;
+        border-radius: 10px;
+    }
+    article{
+        background-color: blueviolet;
+        border-radius: 10px;
+        width: 100%;
+    }
+    footer{
+        background-color: rgb(92, 83, 83);
+        height:280px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        font-family: agency fb;
+        padding:10px;
+    }
+    p{
+        font-family: arial;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color:blue;
+        font-family: arial;
+    }
+    .linkFinal{
+        font-size:20px;
+    }
+}
+/*tablets com tamanho minimo de 640px e máximo até 940px*/
+@media screen and (min-width:641px) and (max-width:940px){
+    body{
+        background-color: rgb(136, 22, 22);
+    }
+    .tipo{
+        display: flex;
+        background-color: rgb(10, 41, 41);
+        font-family: Arial, Helvetica, sans-serif;
+        padding:;
+        border-radius:10px;
+    }
+    .tab{
+        font-size:13px;
+        color:aqua;
+        position: relative;
+        right:-50px;    
+    }
+    .cel{
+        font:1px;
+        color:rgb(10, 41, 41);
+    }
+    .comp{
+        font:1px;
+        color: rgb(10, 41, 41);
+    }
+    header{
+        background-color: aqua;
+        border-radius: 10px;
+        padding:10px;
+
+    }
+    section{
+        display: flex;
+    }
+    article{
+        background-color: blueviolet;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    footer{
+        background-color: rgb(92, 83, 83);
+        height:280px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        font-family: agency fb;
+    }
+    p{
+        font-family: arial;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color:blue;
+        font-family: arial;
+    }
+    .linkFinal{
+        font-size:20px;
+    }
+}
+@media screen and (min-width:941px) and (max-width:1239px){
+    body{
+        background-color: rgb(92, 15, 15);
+    }
+    .tipo{
+        display: flex;
+        background-color: rgb(10, 41, 41);
+        font-family: Arial, Helvetica, sans-serif;
+        padding:;
+        border-radius:10px;
+    }
+    .tab{
+        font-size:13px;
+        color:rgb(10, 41, 41);
+        position: relative;
+        right:-50px;    
+    }
+    .cel{
+        font:1px;
+        color:rgb(10, 41, 41);
+    }
+    .comp{
+        font:1px;
+        color: aqua;
+    }
+    header{
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    section{
+        display: flex;
+        width: auto;
+    }
+    article{
+        background-color: blueviolet;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 40%;
+    }
+    footer{
+        background-color: rgb(92, 83, 83);
+        height:280px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    h1{
+        font-family: agency fb;
+    }
+    p{
+        font-family: arial;
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+        color:blue;
+        font-family: arial;
+    }
+    .linkFinal{
+        font-size:20px;
+    }
+}
